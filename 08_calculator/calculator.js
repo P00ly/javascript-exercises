@@ -1,17 +1,18 @@
-const add = function() {
-	
+const add = function(x, y) {
+  return x + y;
 };
 
-const subtract = function() {
-	
+const subtract = function(x, y) {
+  return x - y;
 };
 
-const sum = function() {
-	
+const sum = function(arr) {
+  return arr.reduce((total, current) => total + current, 0);
 };
 
-const multiply = function() {
-
+const multiply = function(arr) {
+  return arr.length
+    
 };
 
 const power = function() {
